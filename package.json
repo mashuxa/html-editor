@@ -1,0 +1,14 @@
+{
+    "name": "app",
+    "version": "0.0.1",
+    "dependencies": {
+        "docx2html": "^1.1.0"
+    },
+    "devDependencies": {
+        "webpack": "^4.12.0"
+    },
+    "scripts": {
+        "build": "webpack -p",
+        "watch": "webpack --watch"
+    }
+}
